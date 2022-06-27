@@ -1,5 +1,4 @@
-# vanilla-camunda-template
+# c7-deployment-filter
 
-This is a template repository to create a plain vanilla CAMUNDA Platform EE Spring Boot project.
-
-This is the best generic starting point!  - Change my mind :)
+Adds a customization to Camunda Platform 7 (not 8!), which 
+overrides the REST DeploymentService implementation and adds custom checks (file size, extension)
